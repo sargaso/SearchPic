@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lesson 19</string>
+
+    <string name="fragment_main_editext_hint">Please,type a word in the word to find</string>
+    <string name="fragment_main_btn_find_picture">Find  picture</string>
+</resources>

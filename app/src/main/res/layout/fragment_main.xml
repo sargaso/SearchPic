@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.MainFragment">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/ivPicture"/>
+
+    <EditText
+        android:id="@+id/etFindPicture"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/fragment_main_editext_hint"
+        android:inputType="text"
+        tools:ignore="autoFillHints" />
+
+    <Button
+        android:id="@+id/btnFindPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/fragment_main_btn_find_picture"
+        android:textAllCaps="true" />
+
+</LinearLayout>
